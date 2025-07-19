@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: webhook
-        image: docker.io/ryuguji/simple-validation-webhook-server:v1
+        image: "YOUR_BUILT_IMAGE" # keep your built image, store in a container registry
         ports:
         - containerPort: 8443
         volumeMounts:
